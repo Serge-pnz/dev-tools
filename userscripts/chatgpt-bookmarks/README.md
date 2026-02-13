@@ -3,11 +3,14 @@
 Tampermonkey userscript for ChatGPT that adds per-conversation message bookmarks.
 
 ## Features
-- Bookmark any message (☆/★)
-- Bookmarks are isolated per conversation
+- BAdd / remove bookmarks on messages (☆/★)
+- Rename bookmarks (in the panel)
 - Quick panel to view/manage bookmarks (scrollable)
-- Jump to a saved message with smooth scroll and highlight
-- Stores data locally in `localStorage` (no external sync)
+- Panel UI: RU/EN (toggle, selection is saved)
+- Owner mark: A (assistant) / U (user)
+- Bookmarks are isolated per conversation (by URL)
+- Jump to a saved message (smooth scroll + highlight)
+- Stores data locally in localStorage (no external sync)
 
 ## Install
 1. Install the Tampermonkey extension.
