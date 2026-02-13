@@ -5,8 +5,8 @@
 // @description  Bookmarks for messages in the current chat: ☆/★ on messages + top-right panel + bookmark title editing
 // @author       Serge_pnz & ChatGPT
 // @homepage     https://solaris.marketing/
-// @downloadURL  https://github.com/Serge-pnz/dev-tools/raw/refs/heads/main/userscripts/chatgpt-bookmarks/chatgpt-bookmarks.user.js
-// @updateURL    https://github.com/Serge-pnz/dev-tools/raw/refs/heads/main/userscripts/chatgpt-bookmarks/chatgpt-bookmarks.user.js
+// @downloadURL  https://raw.githubusercontent.com/Serge-pnz/dev-tools/main/userscripts/chatgpt-bookmarks/chatgpt-bookmarks.user.js
+// @updateURL    https://raw.githubusercontent.com/Serge-pnz/dev-tools/main/userscripts/chatgpt-bookmarks/chatgpt-bookmarks.user.js
 // @match        https://chatgpt.com/*
 // @run-at       document-idle
 // @noframes
