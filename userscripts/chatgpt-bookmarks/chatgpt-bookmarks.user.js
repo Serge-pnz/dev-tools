@@ -1,12 +1,12 @@
 // ==UserScript==
-// @name          Закладки для сообщений в ChatGPT
+// @name         ChatGPT Message Bookmarks
 // @namespace    Solaris_namespace_bookmarks
 // @version      0.4
-// @description  Закладки сообщений в текущем чате: ☆/★ на сообщениях + панель справа сверху + редактирование названия
+// @description  Bookmarks for messages in the current chat: ☆/★ on messages + top-right panel + bookmark title editing
 // @author       Serge_pnz & ChatGPT
 // @homepage     https://solaris.marketing/
-// @downloadURL  https://scripts.solaris.marketing/bookmarks.user.js
-// @updateURL    https://scripts.solaris.marketing/bookmarks.user.js
+// @downloadURL  https://github.com/Serge-pnz/dev-tools/raw/refs/heads/main/userscripts/chatgpt-bookmarks/chatgpt-bookmarks.user.js
+// @updateURL    https://github.com/Serge-pnz/dev-tools/raw/refs/heads/main/userscripts/chatgpt-bookmarks/chatgpt-bookmarks.user.js
 // @match        https://chatgpt.com/*
 // @run-at       document-idle
 // @noframes
