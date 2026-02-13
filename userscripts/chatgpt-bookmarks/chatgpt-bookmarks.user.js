@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         ChatGPT Message Bookmarks
 // @namespace    Solaris_namespace_bookmarks
-// @version      0.4
+// @version      0.4.1
 // @description  Bookmarks for messages in the current chat: ☆/★ on messages + top-right panel + bookmark title editing
 // @author       Serge_pnz & ChatGPT
 // @homepage     https://solaris.marketing/
