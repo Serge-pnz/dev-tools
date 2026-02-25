@@ -474,12 +474,18 @@
       if (!dark) {
         panel.style.background = 'rgba(255,255,255,.94)';
         panel.style.color = '#111';
+        return;
       }
+
+      // В dark mode убираем inline-стили, чтобы применились правила @media.
+      panel.style.background = '';
+      panel.style.color = '';
     };
     applyLightBg();
     if (window.matchMedia) {
       const mq = window.matchMedia('(prefers-color-scheme: dark)');
-      mq.addEventListener && mq.addEventListener('change', applyLightBg);
+      if (mq.addEventListener) mq.addEventListener('change', applyLightBg);
+      else if (mq.addListener) mq.addListener(applyLightBg);
     }
 
     document.body.appendChild(panel);
